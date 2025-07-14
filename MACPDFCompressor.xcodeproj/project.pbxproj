@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		4FC6E0582E2526C100289C07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FC6E03F2E2526BF00289C07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FC6E0462E2526BF00289C07;
+			remoteInfo = MACPDFCompressor;
+		};
+		4FC6E0622E2526C100289C07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FC6E03F2E2526BF00289C07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FC6E0462E2526BF00289C07;
+			remoteInfo = MACPDFCompressor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FC6E0472E2526BF00289C07 /* MACPDFCompressor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MACPDFCompressor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC6E0572E2526C100289C07 /* MACPDFCompressorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MACPDFCompressorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC6E0612E2526C100289C07 /* MACPDFCompressorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MACPDFCompressorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4FC6E0492E2526BF00289C07 /* MACPDFCompressor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MACPDFCompressor;
+			sourceTree = "<group>";
+		};
+		4FC6E05A2E2526C100289C07 /* MACPDFCompressorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MACPDFCompressorTests;
+			sourceTree = "<group>";
+		};
+		4FC6E0642E2526C100289C07 /* MACPDFCompressorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MACPDFCompressorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FC6E0442E2526BF00289C07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC6E0542E2526C100289C07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC6E05E2E2526C100289C07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FC6E03E2E2526BF00289C07 = {
+			isa = PBXGroup;
+			children = (
+				4FC6E0492E2526BF00289C07 /* MACPDFCompressor */,
+				4FC6E05A2E2526C100289C07 /* MACPDFCompressorTests */,
+				4FC6E0642E2526C100289C07 /* MACPDFCompressorUITests */,
+				4FC6E0482E2526BF00289C07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FC6E0482E2526BF00289C07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FC6E0472E2526BF00289C07 /* MACPDFCompressor.app */,
+				4FC6E0572E2526C100289C07 /* MACPDFCompressorTests.xctest */,
+				4FC6E0612E2526C100289C07 /* MACPDFCompressorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FC6E0462E2526BF00289C07 /* MACPDFCompressor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FC6E06B2E2526C100289C07 /* Build configuration list for PBXNativeTarget "MACPDFCompressor" */;
+			buildPhases = (
+				4FC6E0432E2526BF00289C07 /* Sources */,
+				4FC6E0442E2526BF00289C07 /* Frameworks */,
+				4FC6E0452E2526BF00289C07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4FC6E0492E2526BF00289C07 /* MACPDFCompressor */,
+			);
+			name = MACPDFCompressor;
+			packageProductDependencies = (
+			);
+			productName = MACPDFCompressor;
+			productReference = 4FC6E0472E2526BF00289C07 /* MACPDFCompressor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FC6E0562E2526C100289C07 /* MACPDFCompressorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FC6E06E2E2526C100289C07 /* Build configuration list for PBXNativeTarget "MACPDFCompressorTests" */;
+			buildPhases = (
+				4FC6E0532E2526C100289C07 /* Sources */,
+				4FC6E0542E2526C100289C07 /* Frameworks */,
+				4FC6E0552E2526C100289C07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FC6E0592E2526C100289C07 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4FC6E05A2E2526C100289C07 /* MACPDFCompressorTests */,
+			);
+			name = MACPDFCompressorTests;
+			packageProductDependencies = (
+			);
+			productName = MACPDFCompressorTests;
+			productReference = 4FC6E0572E2526C100289C07 /* MACPDFCompressorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FC6E0602E2526C100289C07 /* MACPDFCompressorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FC6E0712E2526C100289C07 /* Build configuration list for PBXNativeTarget "MACPDFCompressorUITests" */;
+			buildPhases = (
+				4FC6E05D2E2526C100289C07 /* Sources */,
+				4FC6E05E2E2526C100289C07 /* Frameworks */,
+				4FC6E05F2E2526C100289C07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FC6E0632E2526C100289C07 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4FC6E0642E2526C100289C07 /* MACPDFCompressorUITests */,
+			);
+			name = MACPDFCompressorUITests;
+			packageProductDependencies = (
+			);
+			productName = MACPDFCompressorUITests;
+			productReference = 4FC6E0612E2526C100289C07 /* MACPDFCompressorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FC6E03F2E2526BF00289C07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					4FC6E0462E2526BF00289C07 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					4FC6E0562E2526C100289C07 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 4FC6E0462E2526BF00289C07;
+					};
+					4FC6E0602E2526C100289C07 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 4FC6E0462E2526BF00289C07;
+					};
+				};
+			};
+			buildConfigurationList = 4FC6E0422E2526BF00289C07 /* Build configuration list for PBXProject "MACPDFCompressor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FC6E03E2E2526BF00289C07;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4FC6E0482E2526BF00289C07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FC6E0462E2526BF00289C07 /* MACPDFCompressor */,
+				4FC6E0562E2526C100289C07 /* MACPDFCompressorTests */,
+				4FC6E0602E2526C100289C07 /* MACPDFCompressorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FC6E0452E2526BF00289C07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC6E0552E2526C100289C07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC6E05F2E2526C100289C07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FC6E0432E2526BF00289C07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC6E0532E2526C100289C07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC6E05D2E2526C100289C07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FC6E0592E2526C100289C07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FC6E0462E2526BF00289C07 /* MACPDFCompressor */;
+			targetProxy = 4FC6E0582E2526C100289C07 /* PBXContainerItemProxy */;
+		};
+		4FC6E0632E2526C100289C07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FC6E0462E2526BF00289C07 /* MACPDFCompressor */;
+			targetProxy = 4FC6E0622E2526C100289C07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4FC6E0692E2526C100289C07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = ZMR99HYH8Q;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FC6E06A2E2526C100289C07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ZMR99HYH8Q;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4FC6E06C2E2526C100289C07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MACPDFCompressor/MACPDFCompressor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZMR99HYH8Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UNKLAB.MACPDFCompressor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4FC6E06D2E2526C100289C07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MACPDFCompressor/MACPDFCompressor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZMR99HYH8Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UNKLAB.MACPDFCompressor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4FC6E06F2E2526C100289C07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZMR99HYH8Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UNKLAB.MACPDFCompressorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MACPDFCompressor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MACPDFCompressor";
+			};
+			name = Debug;
+		};
+		4FC6E0702E2526C100289C07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZMR99HYH8Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UNKLAB.MACPDFCompressorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MACPDFCompressor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MACPDFCompressor";
+			};
+			name = Release;
+		};
+		4FC6E0722E2526C100289C07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZMR99HYH8Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UNKLAB.MACPDFCompressorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MACPDFCompressor;
+			};
+			name = Debug;
+		};
+		4FC6E0732E2526C100289C07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZMR99HYH8Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UNKLAB.MACPDFCompressorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MACPDFCompressor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FC6E0422E2526BF00289C07 /* Build configuration list for PBXProject "MACPDFCompressor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC6E0692E2526C100289C07 /* Debug */,
+				4FC6E06A2E2526C100289C07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FC6E06B2E2526C100289C07 /* Build configuration list for PBXNativeTarget "MACPDFCompressor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC6E06C2E2526C100289C07 /* Debug */,
+				4FC6E06D2E2526C100289C07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FC6E06E2E2526C100289C07 /* Build configuration list for PBXNativeTarget "MACPDFCompressorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC6E06F2E2526C100289C07 /* Debug */,
+				4FC6E0702E2526C100289C07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FC6E0712E2526C100289C07 /* Build configuration list for PBXNativeTarget "MACPDFCompressorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC6E0722E2526C100289C07 /* Debug */,
+				4FC6E0732E2526C100289C07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FC6E03F2E2526BF00289C07 /* Project object */;
+}
