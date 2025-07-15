@@ -1,7 +1,7 @@
 # MAC PDF Compressor
 
 <p align="center">
-  <img src="path/to/your/app_screenshot.png" alt="MAC PDF Compressor Screenshot" width="600"/>
+  <img src="MAC-Compressor.png" alt="MAC PDF Compressor Screenshot" width="600"/>
 </p>
 
 <p align="center">
