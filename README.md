@@ -8,13 +8,6 @@ A native macOS app built with SwiftUI that compresses PDF files using Ghostscrip
 - Progress indicator and results table
 - Compressed files are saved in the same folder as the original (e.g., Downloads), with `.compressed.pdf` added to the name
 
-## Download
-You can download the latest prebuilt version of the app here:
-
-👉 [https://atlverse.xyz/pdfcompressor.html](https://atlverse.xyz/pdfcompressor.html)
-
-If you prefer to build from source, see the instructions below.
-
 ## Requirements
 - **macOS 14+ (Sonoma or later)**
 - **Apple Silicon (M1/M2/M3)**
