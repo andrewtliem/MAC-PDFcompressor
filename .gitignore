@@ -1,0 +1,45 @@
+# Xcode
+DerivedData/
+build/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# User settings
+*.swp
+*.swo
+*.swn
+*.sublime-workspace
+*.sublime-project
+
+# SwiftPM
+.swiftpm/
+Package.resolved
+
+# App binary
+*.app
+
+# Ghostscript and other binaries (do not ignore if you want to bundle in repo)
+Tools/gs
+
+# Logs
+*.log
+
+# Other
+*.orig
+*.rej
+
+# By default, do not ignore source files
+!*.swift
+!*.xcodeproj
+!*.xcworkspace
+!*.plist
+!*.entitlements 
