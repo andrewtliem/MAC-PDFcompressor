@@ -85,3 +85,12 @@ Contributions are welcome! If you have ideas for new features, bug fixes, or imp
 
 This project bundles Ghostscript, which is licensed under AGPL.
 Therefore this project is distributed under AGPL-3.0.
+
+## Third-Party Software
+
+This application bundles Ghostscript.
+
+Ghostscript is licensed under the GNU Affero General Public License (AGPL):
+https://www.gnu.org/licenses/agpl-3.0.html
+
+Source: https://www.ghostscript.com/
