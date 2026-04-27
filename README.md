@@ -83,4 +83,5 @@ Contributions are welcome! If you have ideas for new features, bug fixes, or imp
 
 ## 📄 License
 
-This project is licensed under the **MIT License**. See the `LICENSE` file for details.
+This project bundles Ghostscript, which is licensed under AGPL.
+Therefore this project is distributed under AGPL-3.0.
